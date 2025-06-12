@@ -172,6 +172,98 @@ Packet analysis using wireshark [sniffing using wireshark]
 •	Click on the desired method or just click on the blue shark logo to start.
 •	Select the Ethernet2 or Ethernet1 then it will run wait for a while and then click STOPS
 •	Check how many packets have been downloaded and check the displays of packets.
+                   
+                   
+                   Program 4
+Packet analysis using wireshark [sniffing using wireshark]
+•	Goto goggle and search wireshark
+•	Open the first link and select the first link init [windowX64installer]
+•	Download 64bit installer
+•	Complete the installation with agreeing to all the conditions.
+•	Run the software.
+•	Open the app through the search bar and you will get the interface or welcome to wireshark.
+•	Click on the desired method or just click on the blue shark logo to start.
+•	Select the Ethernet2 or Ethernet1 then it will run wait for a while and then click STOPS
+•	Check how many packets have been downloaded and check the displays of packets
+
+
+
+Program 8.               (5)
+Installation of rootkits and study    about the varity of option
+-Rootkit_halicons softwaren/threat software.
+-1st we have to install chKrootkit in kali linux
+-open kali linux and install chkrootkit
+commands
+-sudo apt install chkrootkit
+-sudo chkrootkit
+-rkhunter-c.
+
+
+Program 9 (7)
+Sniff traffic using ARP Poisoning
+APR Address resolution protocol
+-it is used to convert ip address to physical address on a switch
+->Download wireshark from google with this link https://www.wireshark.org/download.html
+->Open wireshark
+->Select the network interface you want to sniff note for this demonstration we are using a wireless network connection if you are on a local area network
+Interface
+->Click on start button as show above
+->open your web browser and type in https://techpada.org
+->The login email is admin@google.com and the password is password2010
+->click on submit button
+->A successfull logon should given you the following dashboard
+->go back to wireshark and stop the live capture
+->Fillter for HTTP protocol results only using the fillter textbox
+->Locate the info column and look for entries with the http verb post and click on it
+->just below the log entries there is a panel with a summary of captured data look gorgeous the summary that says line based text data application /x-ww-formurlencoded
+->you should be able to vist the plaintext values of all the post variables submitted to the server via http protocal
+
+
+
+
+Program 6.              ( 8)
+Perform sql injection using burp suite
+
+->goto google type foxyproxy extention open the 1st link and you will get add chrome / add extension then add it
+->then again in google type OWASP juice shop website and search for github juice shop
+->u will get or press github juice shop link you will get some steps [scroll down 
+->the steps are shown in the left side of sheet 
+->According to the following steps copy one by one and then given that commands / link precent in the steps
+->then open kali linux software give the commande precent in the github-juice shop
+Command
+->sudo apt update
+->sudo apt install node j.s
+->node –v
+->copy the 2nd step of the link present in the steps and paste it [shift+ctrl+v]
+->git clone https://github.com/juice.shop/juice-shop git-depth1
+->cd juice-shop
+->npm install
+->npm start 
+
+
+
+
+
+
+
+
+Program 7     (6)
+Installation of wireshrack and tcp dem ect and abserva data transform in client server communication using upd/tcp and identify udp/tcp datagrams
+->open the kali linux go to some web browser download wireshark 64bit window installer
+->to install wire shark in kali linux
+->sudo apt-get install wireshark
+->sudo wire shark
+After giving this command packet running wire shark open
+->it showes welcome to wire shark and select the option etho and after selecting ther will be no packet running
+->Then open any browser www.wayne.edu
+->after browser displayed www.wayne.edu stop wire shark packet capture by selecting stop in the wireshark capture window
+->colour coding- you will probably see packes highlighted in green ,blue brown wireshark user colour to help you to identify the type of trafic at a glays
+->you know have line packet data that contais all protocal messeges exchange b/w your camputer and other network entities
+->to futher filter packet in wire shark we need to use more precise filter by seting the http.host==www.wayne.edu we are ristricting the view to the pocket that have on http code www.wayne.edu
+->now you can try onether protocal that use tcp stream if you right click of any of the packet one list will dispaly in that select and you will get filter stream
+->if we clos the window change the filter and back to this one .com select the packe and right click and follow tcp and udp and http stream
+
+
 
 
 
